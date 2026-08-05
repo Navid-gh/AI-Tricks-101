@@ -60,23 +60,23 @@ i wanna write spec file to implement something...
 
 the input format should be one **spec file in md format** with this templete:
 
-```
+"""
 # {FEATURE_TITLE}
 [description about the feature]
 
 ## GOALS
 [list of the goals]
-```
+"""
 
 you should write the **spec file in md format** as output in this format:
 
-```
+"""
 # {FEATURE NAME}
 [description about the feature]
 
 ## BESINESS LOGIC
 [describe besiness logic step by step]
-```
+"""
 
 if you have any question, ask them before starting.
 ```
@@ -94,23 +94,23 @@ i wanna write spec file to implement something...
 
 the input format should be one **spec file in md format** with this templete:
 
-```
+"""
 # {FEATURE_TITLE}
 [description about the feature]
 
 ## GOALS
 [list of the goals]
-```
+"""
 
 you should write the **spec file in md format** as output in this format:
 
-```
+"""
 # {FEATURE NAME}
 [description about the feature]
 
 ## BESINESS LOGIC
 [describe besiness logic step by step]
-```
+"""
 
 GAURDRAILS:
 - never delete anything without user permission
@@ -133,9 +133,19 @@ magic: the complex with bad practice of the each section code are magic.
 
 ---
 
-## LOOP ENGEERING VS GRAPH ENGEERING 
+## [GRAPH ENGEERING VS LOOP ENGEERING](https://www.aibuilderclub.com/blog/graph-engineering-vs-loop-engineering) 
 
-## SDD (SPEC DRIVIEN DEVELOPMENT)
+Loop engineering is designing the loop one agent runs: discover, plan, execute, verify, repeat until a stop condition. You stop hand-writing prompts and start designing the cycle and its exit test. (That's the whole discipline - our Loop Engineering guide covers why the verifier, not the model, is the bottleneck.)
+
+Graph engineering is what you do when one loop isn't enough: you wire multiple specialized agents or steps into a graph.
+
+Read the article in title link.
+
+
+## [SDD (SPEC DRIVEN DEVELOPMENT)](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
+The spec becomes the source of truth for the human and the AI.
+
+Read the article in title link.
 
 ---
 
