@@ -133,7 +133,9 @@ magic: the complex with bad practice of the each section code are magic.
 
 ---
 
-## [GRAPH ENGEERING VS LOOP ENGEERING](https://www.aibuilderclub.com/blog/graph-engineering-vs-loop-engineering) 
+## 2. PHILOSOPHY
+
+### 2.1 [GRAPH ENGEERING VS LOOP ENGEERING](https://www.aibuilderclub.com/blog/graph-engineering-vs-loop-engineering) 
 
 Loop engineering is designing the loop one agent runs: discover, plan, execute, verify, repeat until a stop condition. You stop hand-writing prompts and start designing the cycle and its exit test. (That's the whole discipline - our Loop Engineering guide covers why the verifier, not the model, is the bottleneck.)
 
@@ -142,14 +144,33 @@ Graph engineering is what you do when one loop isn't enough: you wire multiple s
 Read the article in title link.
 
 
-## [SDD (SPEC DRIVEN DEVELOPMENT)](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
+### 2.2 [SDD (SPEC DRIVEN DEVELOPMENT)](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
 The spec becomes the source of truth for the human and the AI.
 
 Read the article in title link.
 
 ---
 
-## MY TOP SKILLS
+## 3. MY TOP SKILLS
+
+### 3.1 [graphify](https://github.com/Graphify-Labs/graphify)
+Type `/graphify` in your AI coding assistant and it maps your entire project into a knowledge graph you can query instead of grepping through files.
+it can help for travers in code easily and find the targets exatly. in implementation feature, it can increase your accurecy to reach a better results.
+
+### 3.2 [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
+if you say that you create skill without this skill, doubt yourself.
+maybe you need **review** and change some thing after generating skill via this skill.
+
+### 3.3 [caveman](https://github.com/JuliusBrussee/caveman)
+Make your AI coding agent talk like a caveman.
+Same answers. 65% fewer output tokens on prose,
+8.5% on long-horizon agentic coding runs. Brain still big. Mouth small.
+
+### 3.4 [feature-manager](https://github.com/blkst8/skills/tree/master/skills/feature-manager)
+this skill writen by me and it looks like [goalbuddy](https://github.com/tolibear/goalbuddy).
+both skills generate md file that define some goals and tasks based on your feature. after define path for implementaion, they can starting implementaion with the goals.
+
+---
 
 ## FRONT-MATTER
 
