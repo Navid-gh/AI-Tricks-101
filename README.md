@@ -172,13 +172,56 @@ both skills generate md file that define some goals and tasks based on your feat
 
 ---
 
-## FRONT-MATTER
+## 4. SKILLS & SPEC
 
-## EVALS
+in this section i describe how to write skills and specs.  
 
-## WRITE SKILL
+### 4.1 FRONT-MATTER
 
-## WRITE SPEC
+Frontmatter is a **metadata block** at the very top of a Markdown file, wrapped in `---` delimiters.
+frontmatter used in skills, but you can use it in your generated md files (e.g. docs).
+
+#### Example
+
+i create doc for a project and i add frontmatter in this template:
+
+```
+---
+branch: main
+commit-hash: 8jsid82
+generated-by: blkst8
+date: 2026-08-01
+---
+```
+
+### 4.2 EVALS
+“Evals skills” usually refers to evaluating AI skills — testing how well an AI model or agent performs specific tasks.
+
+Evals is short for evaluations. In AI, evals are structured tests used to measure abilities such as:
+
+- Reasoning
+- Coding
+- Math
+- Writing quality
+- Instruction following
+- Tool use
+- Safety
+- Factual accuracy
+- Multilingual ability
+- Domain knowledge
+
+AI evals help developers understand:
+
+- What the AI is good at
+- Where it fails
+- Whether a new model is better than an old one
+- Whether the AI follows instructions correctly
+- Whether it is safe and reliable
+
+
+## 4.3 WRITE SKILL
+
+## 4.4 WRITE SPEC
 
 ---
 
