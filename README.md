@@ -219,9 +219,51 @@ AI evals help developers understand:
 - Whether it is safe and reliable
 
 
-## 4.3 WRITE SKILL
+## 4.3 WRITE SPEC
 
-## 4.4 WRITE SPEC
+for most tasks i use spec file. spec file is source of truth of your AI.
+therefore, it's more importent file in your workflow.
+
+i ussuly write my specs something like this:
+
+```
+# {title of my feature}
+[describe what i wanna in this spec file]
+
+## DICTIONARY
+[for more informaition read 1.5]
+
+## TECH/BESINESS LOGIC
+[describe what i need in text and bollet points]
+
+## Measurement Criteria
+[describe what criteria importent to you. e.g. maintainablity, test covrage, extenable, etc]
+
+## ALGORITHM
+[if you need run algorithm you should tell it to agent step by step.]
+
+## Rules
+[list all rules that AI models should to observe]
+
+## ❌ Wrong Behavior (Do NOT do this)
+[say with **example** that what exatly wrong in implementation. this section can help to model to prevent from over-enginering. this is diffrent from gaurdrails.]
+
+## 📊 Expected Behavior
+[say with **example** that what exatly you need.]
+
+## GAURDRAILS
+[for more informaition read 1.4]
+```
+
+you can add or remove sections.
+
+after writing your spec, give it to agent to reviwe, find edge-cases, and their questions (read 1.2).
+after it, you can tell your AI model to rewrite it. the new version of your spec file, is most complete and AI comatible.
+
+**DO NOT FORGET TO REVIEW THE LAST VERSION OF SPEC WRITEN BY AI!!!**
+
+## 4.4 WRITE SKILL
+
 
 ---
 
