@@ -127,6 +127,11 @@ Find the magic in the code.
 magic: the complex parts with bad practice in each section of code are called magic.
 ```
 
+### 1.7 BE BRIEFLY
+Add this at the **end** of your prompt when you want short answers and less token burn:
+
+Same idea as the [caveman](https://github.com/JuliusBrussee/caveman) skill — caveman mouth small, brain still big — but you don't need a skill: one line at the end often does the job at least partially if installing that skill is not desirable.
+
 ```mermaid
 flowchart LR
     A["1.1 Remember"] --> B["1.2 Role"]
@@ -134,7 +139,8 @@ flowchart LR
     C --> D["1.4 I/O Format"]
     D --> E["1.5 Guardrails"]
     E --> F["1.6 Dictionary"]
-    F --> G["Final Prompt"]
+    F --> H["1.7 Be Briefly"]
+    H --> G["Final Prompt"]
 ```
 
 ---
